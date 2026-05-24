@@ -84,7 +84,8 @@ header ul a {
 }
 
 header ul a:hover {
-    text-shadow: 0 0 15px black;
+    box-shadow: 0 0 20px white;
+    color: #0099ff;
 }
 
 .logo {
@@ -188,7 +189,8 @@ a {
 }
 
 .hero-info a:hover {
-    box-shadow: 0 0 15px #72a1de81;
+    box-shadow: 0 0 15px #8d12ce81;
+    color: #0099ff;
 }
 
 /* Gradient Animation */
@@ -323,9 +325,9 @@ a {
     bottom: 3%;
     left: 5%;
     z-index: 1;
-    max-width: 350px;
+    max-width: 400px;
     color: gray;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 20px;
     margin: 0;
 }
