@@ -184,6 +184,7 @@ a {
     box-shadow: 0 0 5px #72a1de81;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 .hero-info a:hover {
@@ -312,7 +313,7 @@ a {
     margin: 0;
     bottom: 40%;
     left: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     z-index: 1;
     color: lightgray;
 }
@@ -322,10 +323,11 @@ a {
     bottom: 3%;
     left: 5%;
     z-index: 1;
-    max-width: 300px;
+    max-width: 350px;
     color: gray;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     line-height: 20px;
+    margin: 0;
 }
 
 .card img {
@@ -345,7 +347,7 @@ a {
 .card button {
     position: absolute;
     bottom: 5%;
-    left: 5%;
+    left: 50%;
     padding: 10px 25px;
     border: 1px solid gray;
     background-color: #0f1217;
@@ -354,6 +356,7 @@ a {
     box-shadow: 0 0 5px lightgray;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 .card button:hover {
@@ -448,7 +451,7 @@ a {
 
 .project-info h1 {
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-wrap: nowrap;
     margin-top: 0;
@@ -462,6 +465,7 @@ a {
     min-width: 300px;
     margin-bottom: 50px;
     margin-top: 0;
+    font-size: 1.2rem;
 }
 
 .project-info button {
@@ -473,11 +477,13 @@ a {
     box-shadow: 0 0 5px #72a1de81;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 .project-info button:hover {
     opacity: 0.8;
-    box-shadow: 0 0 15px #72a1de81;
+    box-shadow: 0 0 15px #8d12ce81;
+    color: #0099ff;
 }
 
 .project-vidbox .hover-sign {
@@ -521,6 +527,10 @@ a {
 
 
 /* MINHAS HABILIDADES  */
+.section-title{
+    font-size: 3rem;
+}
+
 .skills-section {
     display: flex;
     flex-direction: column;
@@ -562,6 +572,7 @@ a {
 
 .Designer p {
     line-height: 23px;
+    font-size: 1.2rem;
 }
 
 
@@ -583,9 +594,8 @@ a {
 
 .coder p {
     line-height: 23px;
+    font-size: 1.2rem;
 }
-
-
 
 .coder-text {
 
@@ -667,6 +677,10 @@ a {
     left: 40%;
 }
 
+.contact-box p {
+    font-size: 1.2rem;
+}
+
 .social-box {
     display: flex;
     flex-direction: column;
@@ -718,11 +732,13 @@ a {
     box-shadow: 0 0 5px #72a1de81;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1rem;
 }
 
 .contact-box button:hover {
     opacity: 0.8;
-    box-shadow: 0 0 15px #72a1de81;
+    box-shadow: 0 0 15px #8d12ce81;
+    color: #0099ff;
 }
 
 /*  FOOTER */
@@ -922,9 +938,6 @@ a {
 
 
 
-
-
-
 @media (max-aspect-ratio: 16/9) {
     .back-vid {
         width: auto;
@@ -943,12 +956,6 @@ a {
 @media screen and (max-width: 1200px) {
 
     /*  INICIAL */
-    /* SOBRE MIM */
-    /*  MEUS PROJETOS */
-    /*  MINHAS HABILIDADES */
-    /*  VAMOS CONVERSAR */
-    /*  FOOTER */
-
     .blackhole-box video {
         margin-top: -20%;
     }
@@ -971,6 +978,7 @@ a {
         height: 500px;
     }
 
+    /* SOBRE MIM */
     .info-cards {
         grid-template-columns: auto;
     }
@@ -994,17 +1002,21 @@ a {
         margin-top: 5%;
     }
 
+    /*  MEUS PROJETOS */
     .my-project {
         margin-bottom: 200px;
         scale: 0.8;
     }
 
+    /*  VAMOS CONVERSAR */
     .contact-section .section-title {
         left: 30%;
     }
 }
 
 @media screen and (max-width: 700px) {
+   
+    /*  INICIAL */
     header {
         position: fixed;
         height: 50px;
@@ -1018,12 +1030,9 @@ a {
         display: none;
     }
 
-    /*  INICIAL */
-    /* SOBRE MIM */
-    /*  MEUS PROJETOS */
-    /*  MINHAS HABILIDADES */
-    /*  VAMOS CONVERSAR */
-    /*  FOOTER */
+    .container {
+        height: 100%;
+    }
 
     .menu-icon {
         display: inline;
@@ -1051,17 +1060,16 @@ a {
         bottom: 5%;
     }
 
-    .scroll-down {
-        bottom: -5%;
-    }
-
-    .hero .skills-video-box {
+     .hero .skills-video-box {
         height: 200px;
         top: 5%;
     }
 
+    .scroll-down {
+        bottom: -5%;
+    }
 
-
+    /* SOBRE MIM */
     .info-cards {
         grid-template-columns: auto;
     }
@@ -1075,10 +1083,7 @@ a {
         width: 100%;
     }
 
-    .container {
-        height: 100%;
-    }
-
+    /*  MEUS PROJETOS */
     .project-vidbox video {
         width: 250px;
         margin-left: -100px;
@@ -1088,19 +1093,23 @@ a {
         overflow: hidden;
         padding-left: 0;
         margin-left: -50px;
+        margin-bottom: -50px;
+        gap: 10px;
     }
 
     .project-info h1 {
-        font-size: 20px;
+        font-size: 2rem;
         max-width: 200px;
         text-wrap: wrap;
+        margin: 0;
     }
 
     .project-info p {
-        font-size: 10px;
+        font-size: 1.1rem;
         text-wrap: wrap;
         max-width: 200px;
         min-width: 0;
+        margin: 2px;
     }
 
     .project-info button {
@@ -1114,7 +1123,7 @@ a {
     .project-card {
         flex-direction: column;
         margin-left: 25%;
-        gap: 30px;
+        gap: 15px;
     }
 
     .project-vidbox {
@@ -1133,6 +1142,7 @@ a {
         max-width: 300px;
     }
 
+     /*  MINHAS HABILIDADES */
     .Designer {
         top: 15%;
         left: 18%;
@@ -1156,18 +1166,29 @@ a {
         width: 70%;
     }
 
+    .social-box {
+        margin-left: -90px;
+    }
+
+    /*  VAMOS CONVERSAR */
     .contact-section {
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 150px;
         margin-bottom: 50px;
     }
 
-    .footer {
-        font-size: 10px;
+     .contact-section .section-title {
+        top: -150px;
+        left: 20%;
     }
 
-    .social-box {
-        margin-left: -90px;
+    .contact-box {
+       margin: 0 0 80px;
+    }
+
+    /*  FOOTER */
+    .footer {
+        font-size: 10px;
     }
 }
 
@@ -1175,21 +1196,9 @@ a {
 @media screen and (max-width: 480px) {
 
     /*  INICIAL */
-    /* SOBRE MIM */
-    /*  MEUS PROJETOS */
-    /*  MINHAS HABILIDADES */
-    /*  VAMOS CONVERSAR */
     .hero .skills-video-box {
         display: none;
 
-    }
-
-    .Designer .gradient {
-        font-size: 2rem;
-    }
-
-    .coder .gradient {
-        font-size: 2rem;
     }
 
     .blackhole-box {
@@ -1217,18 +1226,25 @@ a {
 
     .hero-info {
         bottom: 15%;
-    }
 
-    .hero-info h1 {
-        font-size: 2rem;
+        h1 {
+            font-size: 2rem;
+        }
+
+        ;
+
+        p {
+            font-size: 1rem;
+        }
     }
 
     .scroll-down {
         bottom: -1%;
     }
 
+    /* SOBRE MIM */
     .section-title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .info-cards {
@@ -1240,40 +1256,92 @@ a {
         min-height: 20rem;
     }
 
-    .card h1 {
-        bottom: 30%;
-        font-size: 0.3rem;
+    .card {
+        h1 {
+            bottom: 40%;
+            font-size: 2rem;
+        };
+        p{
+            font-size: 0.8rem;
+        }
     }
 
+    /*  MEUS PROJETOS */
     .project-card {
         height: 50%;
+        margin-bottom: 100px;
     }
 
-    .project-info p {
-        margin-bottom: 15px;
+    .project-info {
+        margin-bottom: -100px;
     }
 
     .project-info {
         margin-left: -80px;
     }
 
+    .my-project {
+        width: 100%;
+        gap: 50px;
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    /*  MINHAS HABILIDADES */
     .skills-box {
         height: 120vh;
-        margin-right: 30px;
+        margin-right: 15%;
+    }
+
+    .Designer .gradient {
+        font-size: 2rem;
+    }
+
+    .Designer p {
+        font-size: 1rem;
+    }
+
+    .coder .gradient {
+        font-size: 2rem;
+    }
+
+    .coder p {
+        font-size: 1rem;
     }
 
     .slider {
         bottom: 0%;
     }
 
+    /*  VAMOS CONVERSAR */
     .contact-section {
         scale: 0.9;
         height: 120vh;
+        width: 100%;
+        margin-right: 50px;
     }
 
     .contact-section .section-title {
         top: -30px;
         left: 25%;
+    }
+
+    .social-box{
+        margin-left: 20px;
+        a{
+            font-size: 1.1rem;
+        }
+    }
+
+    .contact-box{
+        margin-left: 30px;
+        p{
+            font-size: 1rem;
+        }
     }
 
     /*  FOOTER */
