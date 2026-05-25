@@ -162,7 +162,7 @@ a {
 
 .hero-info h1 {
     font-size: 3.75rem;
-    max-width: 600px;
+    max-width: 650px;
     font-weight: 700;
     line-height: 70px;
     margin-top: 40px;
@@ -1085,6 +1085,10 @@ a {
         width: 100%;
     }
 
+    .card button {
+    font-size: 0.8rem;
+}
+
     /*  MEUS PROJETOS */
     .project-vidbox video {
         width: 250px;
@@ -1262,11 +1266,16 @@ a {
         h1 {
             bottom: 40%;
             font-size: 2rem;
+            margin: 0 0 40px 0
         };
         p{
             font-size: 0.8rem;
         }
     }
+
+    .card button {
+    padding: 3px 8px;
+}
 
     /*  MEUS PROJETOS */
     .project-card {
