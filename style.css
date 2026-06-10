@@ -302,7 +302,7 @@ a {
     justify-content: center;
     position: relative;
     width: auto;
-    height: 40vh;
+    height: 50vh;
     overflow: hidden;
     border: 1px solid gray;
     background-color: #080020b7;
@@ -315,7 +315,7 @@ a {
     margin: 0;
     bottom: 40%;
     left: 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     z-index: 1;
     color: lightgray;
 }
@@ -327,7 +327,7 @@ a {
     z-index: 1;
     max-width: 400px;
     color: gray;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 20px;
     margin: 0;
 }
@@ -350,7 +350,7 @@ a {
     position: absolute;
     bottom: 5%;
     left: 50%;
-    padding: 10px 25px;
+    padding: 8px 10px;
     border: 1px solid gray;
     background-color: #0f1217;
     color: gray;
@@ -358,11 +358,11 @@ a {
     box-shadow: 0 0 5px lightgray;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .card button:hover {
-    box-shadow: 0 0 15px lightgray;
+    box-shadow: 0 0 15px rgb(68, 30, 202);
     opacity: 0.7;
 }
 
@@ -677,6 +677,7 @@ a {
     position: absolute;
     top: 10%;
     left: 40%;
+    margin: auto;
 }
 
 .contact-box p {
