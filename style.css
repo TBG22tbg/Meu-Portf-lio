@@ -140,7 +140,7 @@ a {
     position: relative;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     justify-content: space-between;
 }
@@ -155,7 +155,7 @@ a {
     padding: 8px 5px;
     border-radius: 50px;
     border: 1px solid #72a1de94;
-    width: 240px;
+    width: 50%;
     background-color: #2200493d;
     box-shadow: 0 0 5px #72a1de84;
 }
@@ -529,7 +529,7 @@ a {
 
 
 /* MINHAS HABILIDADES  */
-.section-title{
+.section-title {
     font-size: 3rem;
 }
 
@@ -956,9 +956,13 @@ a {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 
     /*  INICIAL */
+    .hero {
+        height: 150vh;
+    }
+
     .blackhole-box video {
         margin-top: -20%;
     }
@@ -1018,7 +1022,7 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-   
+
     /*  INICIAL */
     header {
         position: fixed;
@@ -1032,6 +1036,11 @@ a {
     header .box-icons {
         display: none;
     }
+
+    .hero {
+        height: 120vh;
+    }
+
 
     .container {
         height: 100%;
@@ -1063,7 +1072,7 @@ a {
         bottom: 5%;
     }
 
-     .hero .skills-video-box {
+    .hero .skills-video-box {
         height: 200px;
         top: 5%;
     }
@@ -1087,8 +1096,8 @@ a {
     }
 
     .card button {
-    font-size: 0.8rem;
-}
+        font-size: 0.8rem;
+    }
 
     /*  MEUS PROJETOS */
     .project-vidbox video {
@@ -1149,7 +1158,7 @@ a {
         max-width: 300px;
     }
 
-     /*  MINHAS HABILIDADES */
+    /*  MINHAS HABILIDADES */
     .Designer {
         top: 15%;
         left: 18%;
@@ -1184,13 +1193,13 @@ a {
         margin-bottom: 50px;
     }
 
-     .contact-section .section-title {
+    .contact-section .section-title {
         top: -150px;
         left: 20%;
     }
 
     .contact-box {
-       margin: 0 0 80px;
+        margin: 0 0 80px;
     }
 
     /*  FOOTER */
@@ -1203,6 +1212,9 @@ a {
 @media screen and (max-width: 480px) {
 
     /*  INICIAL */
+     .hero {
+        height: 100vh;
+    }
     .hero .skills-video-box {
         display: none;
 
@@ -1268,15 +1280,18 @@ a {
             bottom: 40%;
             font-size: 2rem;
             margin: 0 0 40px 0
-        };
-        p{
+        }
+
+        ;
+
+        p {
             font-size: 0.8rem;
         }
     }
 
     .card button {
-    padding: 3px 8px;
-}
+        padding: 3px 8px;
+    }
 
     /*  MEUS PROJETOS */
     .project-card {
@@ -1295,10 +1310,12 @@ a {
     .my-project {
         width: 100%;
         gap: 50px;
-        h1{
+
+        h1 {
             font-size: 1.5rem;
         }
-        p{
+
+        p {
             font-size: 1rem;
         }
     }
@@ -1342,16 +1359,18 @@ a {
         left: 25%;
     }
 
-    .social-box{
+    .social-box {
         margin-left: 20px;
-        a{
+
+        a {
             font-size: 1.1rem;
         }
     }
 
-    .contact-box{
+    .contact-box {
         margin-left: 30px;
-        p{
+
+        p {
             font-size: 1rem;
         }
     }
