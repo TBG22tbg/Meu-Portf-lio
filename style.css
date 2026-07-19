@@ -148,6 +148,7 @@ a {
 .hero-info {
     position: absolute;
     left: 5%;
+    height: 80vh;
 }
 
 .hero-info .hero-info-title {
@@ -161,9 +162,8 @@ a {
 }
 
 .hero-info h1 {
-    font-size: 3.75rem;
-    max-width: 650px;
-    font-weight: 700;
+    font-size: 3.5rem;
+    max-width: 750px;
     line-height: 70px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -173,7 +173,7 @@ a {
     max-width: 550px;
     line-height: 25px;
     margin-bottom: 40px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .hero-info a {
