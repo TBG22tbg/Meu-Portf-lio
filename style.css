@@ -166,12 +166,14 @@ a {
 
 .hero-info .hero-info-title {
     color: #72a1de;
-    padding: 8px 5px;
+    padding: 15px 1px;
     border-radius: 50px;
     border: 1px solid #72a1de94;
-    width: 50%;
+    width: 40%;
     background-color: #2200493d;
     box-shadow: 0 0 5px #72a1de84;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .hero-info h1 {
